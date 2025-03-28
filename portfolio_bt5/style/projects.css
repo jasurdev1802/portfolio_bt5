@@ -1,0 +1,87 @@
+/* General Styles (oldingi style.css bilan bir xil, yangi qo'shimchalar) */
+
+/* Contact Section */
+.contact {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 20px;
+    background: #f9f9f9;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #05364d;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-form {
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff5722;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background: #ff5722;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e64a19;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact {
+        padding: 80px 20px;
+    }
+
+    .contact-form {
+        max-width: 100%;
+    }
+}

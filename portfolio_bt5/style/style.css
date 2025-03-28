@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    min-height: calc(100vh - 100px); /* Footer balandligini hisobga olib bo‘sh joyni kamaytirish */
+}
+
+footer {
+    margin-top: auto; /* Footerni pastda ushlab turish */
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proektlar</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Asosiy</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Proektlar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Kontakt</a></li>
+                </ul>
+                <select class="form-select ms-3 w-auto">
+                    <option value="uz">UZ</option>
+                    <option value="ru">RU</option>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="projects container my-5 pt-5">
+        <h2 class="text-center">Mening Loyihalarim</h2>
+        <p class="text-center">Quyidagi loyihalarim bilan tanishib chiqing.</p>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card project-card shadow-sm" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                    <img src="img/project1.jpg" class="card-img-top" alt="Portfolio Sayti">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Portfolio Sayti</h5>
+                        <p class="card-text">Shaxsiy portfolio sayti.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card project-card shadow-sm" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                    <img src="img/project2.jpg" class="card-img-top" alt="Universitet Platformasi">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Universitet Platformasi</h5>
+                        <p class="card-text">Universitetning statik sayti.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card project-card shadow-sm" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                    <img src="img/project3.jpg" class="card-img-top" alt="Online Do'kon">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Online Do'kon</h5>
+                        <p class="card-text">Elektron tijorat platformasi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modallar -->
+    <div class="modal fade" id="project1Modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Portfolio Sayti</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/project1.jpg" class="img-fluid rounded mb-3" alt="Portfolio Sayti">
+                    <p>Bu loyiha shaxsiy portfolio sifatida ishlab chiqilgan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2Modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Universitet Platformasi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/project2.jpg" class="img-fluid rounded mb-3" alt="Universitet Platformasi">
+                    <p>Bu loyiha universitet veb-sayti uchun tayyorlangan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3Modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Online Do'kon</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="img/project3.jpg" class="img-fluid rounded mb-3" alt="Online Do'kon">
+                    <p>Elektron tijorat platformasi sifatida ishlab chiqilgan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">© 2025 Termiz - Barcha huquqlar himoyalangan</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

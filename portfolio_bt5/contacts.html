@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+
+    <!-- Bootstrap 5 & Google Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body, html {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-content {
+            flex: 1;
+        }
+
+        .footer {
+            margin-top: auto;
+            background-color: #212529;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Asosiy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Proektlar</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contacts.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <div class="main-content">
+        <section class="contact container my-5 pt-5">
+            <h2 class="text-center">Men bilan bog'lanish</h2>
+            <p class="text-center">Savollaringiz yoki takliflaringiz bo'lsa, menga yozing!</p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form class="contact-form p-4 shadow rounded bg-light">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Ismingiz</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Ismingizni kiriting" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Email manzilingizni kiriting" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Xabar</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" placeholder="Xabaringizni yozing..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">Yuborish</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Google Maps Placeholder -->
+        <section class="container mb-5">
+            <h3 class="text-center">Mening joylashuvim</h3>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="ratio ratio-16x9">
+                        <div class="mt-4">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47994.39600469317!2d67.2754!3d37.2270!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f52b1f1d0c7e3f7%3A0x8a8e3e0bd4e0e0e0!2sTermiz%20State%20University!5e0!3m2!1sen!2s!4v1710000000000"
+                                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="mb-0">© 2025 Termiz - Barcha huquqlar himoyalangan</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

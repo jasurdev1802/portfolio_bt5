@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.head_container{
+    width: 100%;
+    height: 9%;
+    background: pink;
+    position: fixed;
+}
+.main_logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main_logo img{
+    width: 50px;
+}
+.navigation{
+    display: inline-block;
+    align-items: end;
+    background: yellow;
+}
+.nav_ul{
+    display: inline-block;
+}
+.nav_li{
+    display: inline-block;
+}
